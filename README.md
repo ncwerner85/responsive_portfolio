@@ -1,29 +1,10 @@
-# Foobar
+# Responsive Portfolio
 
-Foobar is a Python library for dealing with word pluralization.
+Created a responsive portfolio site for myself with a navbar, a responsive layout and responsive images. 
 
-## Installation
+## Description
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
-
-```bash
-pip install foobar
-```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+* Creaded the navbar using bootstrap that links the about me page to the portfolio and contact pages. 
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
