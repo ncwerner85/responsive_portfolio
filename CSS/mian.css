@@ -7,3 +7,13 @@ body {
     overflow-y: hidden;
     overflow-x: hidden;
    }
+   .card {
+       margin: 20px 0;
+   }  
+   .card-img {
+       float: left;
+       margin-right: 20px;
+   }
+   p {
+    font-family: 'Press Start 2P', cursive;
+   }
