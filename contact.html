@@ -16,13 +16,13 @@
             </button>  
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="./index.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./portfolio.html">Portfolio</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a class="nav-link" href="./contact.html">Contact</a>
                     </li>
                 </ul>
@@ -33,32 +33,43 @@
         <div class="container">
             <div class="row">
                 <div class="card">
-                <h2>Contact</h2>
-                <form
-                    action="https://formspree.io/f/mjvpggvb"
-                    method="POST"
-                    >
-                    <div class="col-6">
-                        <label>
-                            <div class="row">Email:</div>
-                            <input type="text" name="_replyto">
-                        </label>
-                    </div>    
-                    <div class="col-6">
-                        <label>
-                        <div class="row">Message:</div>
-                        <textarea name="message"></textarea>
-                        </label>
+                <h2 class="contact" class="card-title">Contact</h2>
+                    <div class="card-body">
+                        <form
+                            action="https://formspree.io/f/mjvpggvb"
+                            method="POST"
+                            >
+                            <div class="col-6">
+                                <label>
+                                    <div class="row">Name:</div>
+                                    <input type="text" name="_replyto">
+                                </label>
+                            </div>    
+                            <div class="col-6">
+                                <label>
+                                    <div class="row">Email:</div>
+                                    <input type="text" name="_replyto">
+                                </label>
+                            </div>    
+                            <div class="col-6">
+                                <label>
+                                <div class="row">Message:</div>
+                                <textarea name="message"></textarea>
+                                </label>
+                            </div>
+                            <button type="button" class="btn btn-primary">Send</button>
+                        </form>
                     </div>
-                    <button type="submit">Send</button>
-                </form>
+                </div>    
             </div>
         </div>
     </section>
 </body>    
 <footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom">
     <div class="container text-center">
-        <small>Copyright &copy; 2020 Nicholas Werner</small>
+        <a href="https://www.linkedin.com/in/nicholas-werner-38928783?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bkc238eKDT9GCzKmYmpCoSg%3D%3D"><img class=linkimg src="./Assets/linkedin-brands.svg" alt="linkedin logo"></a>
+        <a href="https://github.com/ncwerner85"><img class=linkimg src="./Assets/github-square-brands.svg" alt="github logo"></a>
+        Copyright &copy; 2020 Nicholas Werner
     </div>        
 </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

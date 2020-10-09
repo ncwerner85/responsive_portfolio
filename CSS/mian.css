@@ -30,9 +30,21 @@ h3 {
 }
 .card {
     margin-top: 20%;
-    margin-bottom: 25%;    
+    margin-bottom: 25%;   
 } 
 .card-img {
     float: left;
     margin-right: 20px; 
+}
+.portfolio-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+.linkimg {
+    max-width: 5%;
+    height: auto;
 }
