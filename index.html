@@ -10,118 +10,125 @@
     <link rel="shortcut icon" type="image/png" href="./Assets/favicon.png">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-    <div class="container-fluid">
-        <a class="navbar-brand">Nicholas Werner</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>  
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>    
-    </nav>
-    <section>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <div class="card">
-                        <h3 class="card-title"> About Me</h3>    
-                        <hr> 
-                        <div class="card-body">
-                            <img src="./Assets/IMG_0025.jpeg" class="card-img" style="max-width: 50%;" alt="Pic of Me">
-                            <p class="card-text">Hello my name is Nicholas and I am an inspiring web developer. I am new to coding but I am very excited to learn and start on a new adventure.</p>
-                            <p class="card-text">My career thus far has taken me from human resources to the fast paced world of recruiting/staffing and account management. I have overcome many challenges in my professional career and I am confident that web development will be a challenging and exciting new experience.</p>
-                            <p class="card-text">In my free time I like spending time with my three dogs and my fiancé. I enjoy hiking and camping, knitting and crocheting and cooking. I also enjoy spending time with family and friends and playing board games. </p>
-                        </div>    
+
+    <header> 
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand">Nicholas Werner</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>  
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <div class="card">
+                            <h3 class="card-title"> About Me</h3>    
+                            <hr> 
+                            <div class="card-body">
+                                <img src="./Assets/IMG_0025.jpeg" class="card-img" style="max-width: 50%;" alt="Pic of Me">
+                                <p class="card-text">Hello my name is Nicholas and I am an inspiring web developer. I am new to coding but I am very excited to learn and start on a new adventure.</p>
+                                <p class="card-text">My career thus far has taken me from human resources to the fast paced world of recruiting/staffing and account management. I have overcome many challenges in my professional career and I am confident that web development will be a challenging and exciting new experience.</p>
+                                <p class="card-text">In my free time I like spending time with my three dogs and my fiancé. I enjoy hiking and camping, knitting and crocheting and cooking. I also enjoy spending time with family and friends and playing board games. </p>
+                            </div>    
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <section id="portfolio" >
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <h2>Portfolio</h2>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
-                </div>  
-                <div class="col-md-6">
-                    <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
-                </div>              
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
-                </div>  
-                <div class="col-md-6">
-                    <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
-                </div>              
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
-                </div>           
-            </div>
-        </div>
-    </section>
-    <section id="contact" >
-        <div class="container">
-            <div class="row">
-                <div class="card">
-                <h2 class="contact" class="card-title">Contact</h2>
-                    <div class="card-body">
-                        <form
-                            action="https://formspree.io/f/mjvpggvb"
-                            method="POST"
-                            >
-                            <div class="col-6">
-                                <label>
-                                    <div class="row">Name:</div>
-                                    <input type="text" name="_replyto">
-                                </label>
-                            </div>    
-                            <div class="col-6">
-                                <label>
-                                    <div class="row">Email:</div>
-                                    <input type="text" name="_replyto">
-                                </label>
-                            </div>    
-                            <div class="col-6">
-                                <label>
-                                <div class="row">Message:</div>
-                                <textarea name="message"></textarea>
-                                </label>
-                            </div>
-                            <button type="button" class="btn btn-primary">Send</button>
-                        </form>
+        </section>
+        <section id="portfolio" >
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9">
+                        <h2>Portfolio</h2>
                     </div>
-                </div>    
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
+                        </div>  
+                        <div class="col-md-6">
+                            <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
+                        </div>              
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
+                        </div>  
+                        <div class="col-md-6">
+                            <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
+                        </div>              
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="portfolio-img" src="https://via.placeholder.com/350C/O https://placeholder.com/" alt="placeholder image">
+                        </div>           
+                    </div>
+                </div>
+            </section>
+            <section id="contact" >
+                <div class="container">
+                    <div class="row">
+                        <div class="card">
+                            <h2 class="contact" class="card-title">Contact</h2>
+                            <div class="card-body">
+                                <form
+                                action="https://formspree.io/f/mjvpggvb"
+                                method="POST"
+                                >
+                                <div class="col-6">
+                                    <label>
+                                        <div class="row">Name:</div>
+                                        <input type="text" name="_replyto">
+                                    </label>
+                                </div>    
+                                <div class="col-6">
+                                    <label>
+                                        <div class="row">Email:</div>
+                                        <input type="text" name="_replyto">
+                                    </label>
+                                </div>    
+                                <div class="col-6">
+                                    <label>
+                                        <div class="row">Message:</div>
+                                        <textarea name="message"></textarea>
+                                    </label>
+                                </div>
+                                <button type="button" class="btn btn-primary">Send</button>
+                            </form>
+                        </div>
+                    </div>    
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom">
+            <div class="container text-center">
+                <a href="https://www.linkedin.com/in/nicholas-werner-38928783?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bkc238eKDT9GCzKmYmpCoSg%3D%3D"><img class=linkimg src="./Assets/linkedin-brands.svg" alt="linkedin logo"></a>
+                <a href="https://github.com/ncwerner85"><img class=linkimg src="./Assets/github-square-brands.svg" alt="github logo"></a>
+                Copyright &copy; 2020 Nicholas Werner
+            </div>        
+        </footer>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
-<footer id="sticky-footer" class="py-4 bg-dark text-white-50 fixed-bottom">
-    <div class="container text-center">
-        <a href="https://www.linkedin.com/in/nicholas-werner-38928783?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bkc238eKDT9GCzKmYmpCoSg%3D%3D"><img class=linkimg src="./Assets/linkedin-brands.svg" alt="linkedin logo"></a>
-        <a href="https://github.com/ncwerner85"><img class=linkimg src="./Assets/github-square-brands.svg" alt="github logo"></a>
-        Copyright &copy; 2020 Nicholas Werner
-    </div>        
-</footer>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>
